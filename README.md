@@ -12,3 +12,7 @@
 1. LeBron James
 2. Russell 
 3. Anthony
+
+* Golden State Warriors
+* Brookyln Nets
+* Phoenix Suns <br>
