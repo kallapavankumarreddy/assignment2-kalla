@@ -28,7 +28,7 @@ I liked these countries because of their advanced technology and also the beauti
 | --- | :---: | ---: |
 |Venice| it is popular for its beauty towards the nature | 5 |
 |Japan| Because of its technology | 3 |
-|France| beautiful places to visit when we go there | 4 |
+|England| beautiful places to visit when we go there | 4 |
 |France| Because of its historical monuments like Eifel tower| 3 |
 
 ---
