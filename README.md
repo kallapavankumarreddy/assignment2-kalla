@@ -40,26 +40,25 @@ I liked these countries because of their advanced technology and also the beauti
  > If things go wrong, don’t go with them. - *Roger Babson*
 
  ## Jquery Stack Overflow
- > [Ajax Jquery Simple Get Request - Stack Overflow](https://www.scribd.com/document/528030636/javascript-ajax-jquery-simple-get-request-Stack-Overflow#)
+ > [Ajax Jquery Simple Get Request - Stack Overflow](https://stackoverflow.com/questions/24013942/simple-slider-using-jquery)
 
 ```
 
-<div id="slideshow">
-  <div>
-    <img src="//farm6.static.flickr.com/5224/5658667829_2bb7d42a9c_m.jpg">
-  </div>
-  <div>
-    <img src="//farm6.static.flickr.com/5230/5638093881_a791e4f819_m.jpg">
-  </div>
-  <div>
-    Pretty cool eh? This slide is proof the content can be anything.
-  </div>
-</div>
+$("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+  .fadeOut(1000)
+  .next()
+  .fadeIn(1000)
+  .end()
+  .appendTo('#slideshow');
+}, 3000);
 
 
 ```
 
-> [Simple Auto-Playing Slideshow](https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/)
+> [Snippet code link](https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/)
 
 
 
